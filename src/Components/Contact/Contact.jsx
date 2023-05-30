@@ -41,7 +41,7 @@ export const Contact = () => {
             >
               <CgMail className="email" />
             </a>
-            <a href="tel:+917982889510" target="_blank" rel="noreferrer">
+            <a href="tel:7982889510" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
           </div>
