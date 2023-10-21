@@ -212,9 +212,7 @@ export const Timeline = () => {
               Tech deperment
             </h4>
             <p data-aos="fade-right">
-              ● Member of Technical Department in College Societies i.e. E-cell and Enactus.
-              Maintaining their website and participating in different intra and inter College
-              technical activities with other team members.
+              ● Member of Technical Department in College Societies i.e. E-cell and Enactus. Maintaining their website and participating in different intra and inter College technical activities with other team members.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -250,9 +248,7 @@ export const Timeline = () => {
               Dr. Akhilesh Das Gupta Institute of Technology & Management
             </h4>
             <p data-aos="fade-right">
-              pursuing IT Engineering which consists of all the
-              subjects accross all engineering and IT streams. in 1st year Passed
-              with 9.5 CGPA
+            Pursuing IT Engineering which consists of all the subjects across all engineering and IT streams. Scored 9.5 CGPA in 1st year of college
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -285,7 +281,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              SBV Peeragarhi new Delhi Indai.
+              SBV Peeragarhi New Delhi Indai.
             </h4>
             <p data-aos="fade-right">
               Studied 12th Science and Passed with 80 Percentage.
