@@ -16,12 +16,13 @@ import {
   SiNodedotjs,
   SiMysql
 } from "react-icons/si";
-import { DiCss3,DiReact,DiJava } from "react-icons/di";
+import { DiCss3, DiReact, DiJava } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import carrerboot from "../../assets/carrer.png";
 import college from "../../assets/college.png";
 import hoda from "../../assets/hoda.png";
 import news from "../../assets/news.png";
+import design from "../../assets/design.png";
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
@@ -29,6 +30,40 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+        <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={college} alt="" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>CollegeEazy</h2>
+                <p>
+                  Full stack project which provide notes of B tech . front-end in full on React and backend is full on SpringBoot
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiExpress />
+                  <SiMongodb />
+                  <DiJava />
+                  <SiMysql />
+                </div>
+                <div>
+                  <a
+                    href="https://collegeeazy.vercel.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -39,11 +74,12 @@ export const Projects = () => {
                   />
                 </div>
               </div>
+              
               <div className="project_information">
                 <h2>Hoda electricals</h2>
                 <p>
                   It's a Company's portfolio website which deals with Industrial Electrical works.
-                   Monthly 100s of users visit this Website.
+                  Monthly 100s of users visit this Website.
 
                 </p>
                 <div>
@@ -74,6 +110,54 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img
+                    src={design}
+                    alt="Sk-Weather-App"
+                  />
+                </div>
+              </div>
+              
+              <div className="project_information">
+                <h2>The Design Yard</h2>
+                <p>
+                  It's a Company's portfolio website which deals with Interior Design.
+                  Monthly 500+ of users visit this Website.
+                </p>
+                <div>
+                  <DiCss3 />
+                  <DiReact />
+                  <IoLogoJavascript />
+                </div>
+                <div>
+                  <a
+                    href="https://thedesignyard.co.in/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  {/* <a
+                    href="https://github.com/Shreyasgkhakal100/Weather-App"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a> */}
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -119,48 +203,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img src={college} alt="" />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>CollegeEazy</h2>
-                <p>
-                 Full stack project which provide notes of B tech . front-end in full on React and backend is full on SpringBoot
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                  <DiJava />
-                  <SiMysql />
-                </div>
-                <div>
-                  {/* <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      View NPM Package
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a> */}
-                </div>
-              </div>
-            </div>
-          </div>
+        
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
@@ -175,7 +218,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Samachar-4-U</h2>
                 <p>
-                   API for a newsweb like app built using NodeJS,
+                  API for a newsweb like app built using NodeJS,
 
                   Express, Mongoose, MongoDB  for storage. provide live news.update live.
                   React help make it faster and without loading web
@@ -183,7 +226,7 @@ export const Projects = () => {
                 <div>
                   <SiNodedotjs />
                   <SiExpress />
-                  <DiReact/>
+                  <DiReact />
                   {/* <SiMongodb /> */}
                 </div>
                 <div>
